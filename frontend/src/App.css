@@ -14,7 +14,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #f4f7fb;
+  background: #1c6fdb;
 }
 
 button,
@@ -89,10 +89,10 @@ select:focus {
   display: grid;
   gap: 18px;
   padding: 34px;
-  border: 1px solid #e3e7ef;
+  border: 1px solid #2564e0;
   border-radius: 18px;
   background: #fff;
-  box-shadow: 0 20px 60px rgba(23, 32, 51, 0.09);
+  box-shadow: 0 20px 60px rgba(172, 195, 245, 0.09);
 }
 
 .dashboard-shell {

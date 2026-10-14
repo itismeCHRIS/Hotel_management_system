@@ -37,7 +37,7 @@ function LoginPage({ onLogin }) {
             type="email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
-            placeholder="name@example.com"
+            placeholder="Email"
             required
           />
         </label>
@@ -48,7 +48,7 @@ function LoginPage({ onLogin }) {
             type="password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
-            placeholder="Your password"
+            placeholder="Password"
             required
           />
         </label>

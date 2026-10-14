@@ -62,6 +62,12 @@ Also provide:
 
 Do not commit real credentials.
 
+## Vercel frontend deployment
+
+Import this repository into Vercel and keep the project root set to the repository root. The root `vercel.json` installs the frontend dependencies, runs its Vite production build, and publishes `frontend/dist`.
+
+Set `VITE_API_URL` in the Vercel project's environment variables to the public URL of the deployed backend (for example, the Render API URL). Redeploy after changing environment variables.
+
 ## Tomorrow's lab modification pattern
 
 The generic entity is currently `Record` with `name`, `description`, and `status`. Rename or replace these pieces for the exam subject:
