@@ -25,9 +25,9 @@ function LoginPage({ onLogin }) {
   return (
     <main className="login-shell">
       <form className="login-card" onSubmit={submit}>
-        <p className="eyebrow">CRUD Lab Boilerplate</p>
+        <p className="eyebrow">Hotel Management System</p>
         <h1>Account Login</h1>
-        <p className="muted">Login as a user or administrator.</p>
+        <p className="muted">Login as a user.</p>
 
         {error && <div className="alert error">{error}</div>}
 
